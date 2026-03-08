@@ -16,7 +16,7 @@ public class TimeApiResource {
     @GET
     public String getTime() throws InterruptedException {
         //simulando uma operação demorada (API sobrecarregada, processamento complexo, etc)
-        Thread.sleep(5000L);
+        //Thread.sleep(5000L);
         return LocalDateTime.now() + "\n";
     }
 }
