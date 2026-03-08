@@ -3,6 +3,6 @@ package com.aguiardafa;
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-class GreetingResourceIT extends GreetingResourceTest {
+class TimeApiResourceIT extends TimeApiResourceTest {
     // Execute the same tests but in packaged mode.
 }
