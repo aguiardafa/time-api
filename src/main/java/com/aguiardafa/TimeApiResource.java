@@ -14,7 +14,9 @@ import java.time.LocalDateTime;
 public class TimeApiResource {
 
     @GET
-    public String hello() {
+    public String getTime() throws InterruptedException {
+        //simulando uma operação demorada (API sobrecarregada, processamento complexo, etc)
+        Thread.sleep(5000L);
         return LocalDateTime.now() + "\n";
     }
 }
